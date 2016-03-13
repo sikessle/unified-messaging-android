@@ -1,0 +1,10 @@
+{
+  "transition": {
+    "id": "2"
+  },
+  "fields": {
+    "resolution": {
+      "name": "Done"
+    }
+  }
+}

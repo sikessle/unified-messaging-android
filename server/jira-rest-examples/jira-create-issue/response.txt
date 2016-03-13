@@ -1,0 +1,14 @@
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+X-AREQUESTID: 942x365005x1
+Set-Cookie: JSESSIONID=9ABDB03BF16F3A5F0DB137D2A8477CF6; Path=/; HttpOnly
+X-Seraph-LoginReason: OK
+Set-Cookie: atlassian.xsrf.token=BR8B-SXH6-YCN3-HN0I|d66bd2ab5765b7485f0af46310be5ff8f47cadee|lin; Path=/
+X-ASESSIONID: 9gh6hy
+X-AUSERNAME: sikessle
+Cache-Control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 09 Dec 2015 14:42:13 GMT
+
+{"id":"16205","key":"AUMEWT-107","self":"http://metaproject.in.fhkn.de:8080/rest/api/2/issue/16205"}

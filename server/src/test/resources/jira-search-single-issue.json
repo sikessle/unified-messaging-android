@@ -1,0 +1,32 @@
+{
+  "expand": "editmeta,renderedFields,transitions,changelog,operations",
+  "id": "16191",
+  "self": "http://metaproject.in.fhkn.de:8080/rest/api/2/issue/16191",
+  "key": "AUMEFUENF-363",
+  "fields": {
+    "summary": "Anbindung der Server-Datenquelle",
+    "timetracking": {
+      "originalEstimate": "1h",
+      "remainingEstimate": "1h",
+      "originalEstimateSeconds": 3600,
+      "remainingEstimateSeconds": 3600
+    },
+    "assignee": {
+      "self": "http://metaproject.in.fhkn.de:8080/rest/api/2/user?username=tokeh",
+      "name": "tokeh",
+      "emailAddress": "tokeh@htwg-konstanz.de",
+      "avatarUrls": {
+        "16x16": "http://metaproject.in.fhkn.de:8080/secure/useravatar?size=small&avatarId=10122",
+        "48x48": "http://metaproject.in.fhkn.de:8080/secure/useravatar?avatarId=10122"
+      },
+      "displayName": "Tobias Keh",
+      "active": true
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 0,
+      "total": 0,
+      "worklogs": []
+    }
+  }
+}

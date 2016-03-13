@@ -1,0 +1,156 @@
+{
+  "expand": "renderedFields,names,schema,transitions,operations,editmeta,changelog",
+  "id": "16204",
+  "self": "http://metaproject.in.fhkn.de:8080/rest/api/2/issue/16204",
+  "key": "AUMEWT-106",
+  "fields": {
+    "summary": "Dialog between {initiator} and {affected}",
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "timetracking": {},
+    "issuetype": {
+      "self": "http://metaproject.in.fhkn.de:8080/rest/api/2/issuetype/3",
+      "id": "3",
+      "description": "Eine Aufgabe, die erledigt werden muss.",
+      "iconUrl": "http://metaproject.in.fhkn.de:8080/images/icons/task.gif",
+      "name": "Aufgabe",
+      "subtask": false
+    },
+    "votes": {
+      "self": "http://metaproject.in.fhkn.de:8080/rest/api/2/issue/AUMEWT-106/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "resolution": {
+      "self": "http://metaproject.in.fhkn.de:8080/rest/api/2/resolution/1",
+      "id": "1",
+      "description": "Eine Korrektur für dieses Problem wird in die Struktur eingebucht und getestet.",
+      "name": "Behoben"
+    },
+    "fixVersions": [],
+    "resolutiondate": "2015-12-09T15:22:15.069+0100",
+    "timespent": null,
+    "reporter": {
+      "self": "http://metaproject.in.fhkn.de:8080/rest/api/2/user?username=sikessle",
+      "name": "sikessle",
+      "emailAddress": "sikessle@htwg-konstanz.de",
+      "avatarUrls": {
+        "16x16": "http://metaproject.in.fhkn.de:8080/secure/useravatar?size=small&avatarId=10122",
+        "48x48": "http://metaproject.in.fhkn.de:8080/secure/useravatar?avatarId=10122"
+      },
+      "displayName": "Simon Kessler",
+      "active": true
+    },
+    "aggregatetimeoriginalestimate": null,
+    "created": "2015-12-09T15:20:25.397+0100",
+    "updated": "2015-12-09T15:22:23.679+0100",
+    "description": "This dialog is to communicate between [~sikessle] and [~sikessle].\nPlease use the comments option below.",
+    "priority": {
+      "self": "http://metaproject.in.fhkn.de:8080/rest/api/2/priority/3",
+      "iconUrl": "http://metaproject.in.fhkn.de:8080/images/icons/priority_major.gif",
+      "name": "Schwer",
+      "id": "3"
+    },
+    "duedate": null,
+    "customfield_10001": null,
+    "issuelinks": [],
+    "customfield_10004": "2353",
+    "watches": {
+      "self": "http://metaproject.in.fhkn.de:8080/rest/api/2/issue/AUMEWT-106/watchers",
+      "watchCount": 0,
+      "isWatching": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 0,
+      "total": 0,
+      "worklogs": []
+    },
+    "customfield_10000": null,
+    "subtasks": [],
+    "customfield_10100": null,
+    "status": {
+      "self": "http://metaproject.in.fhkn.de:8080/rest/api/2/status/5",
+      "description": "Eine Lösung wurde ermittelt und wartet auf die Verifizierung durch den Benutzer, der das Problem gemeldet hat. Von hier aus können Vorgänge erneut geöffnet oder geschlossen werden.",
+      "iconUrl": "http://metaproject.in.fhkn.de:8080/images/icons/status_resolved.gif",
+      "name": "Erledigt",
+      "id": "5"
+    },
+    "customfield_10006": null,
+    "labels": [],
+    "customfield_10005": null,
+    "workratio": -1,
+    "assignee": {
+      "self": "http://metaproject.in.fhkn.de:8080/rest/api/2/user?username=sikessle",
+      "name": "sikessle",
+      "emailAddress": "sikessle@htwg-konstanz.de",
+      "avatarUrls": {
+        "16x16": "http://metaproject.in.fhkn.de:8080/secure/useravatar?size=small&avatarId=10122",
+        "48x48": "http://metaproject.in.fhkn.de:8080/secure/useravatar?avatarId=10122"
+      },
+      "displayName": "Simon Kessler",
+      "active": true
+    },
+    "attachment": [],
+    "aggregatetimeestimate": null,
+    "project": {
+      "self": "http://metaproject.in.fhkn.de:8080/rest/api/2/project/AUMEWT",
+      "id": "11600",
+      "key": "AUMEWT",
+      "name": "Agie und mobile Entwicklung WS 15 -Test",
+      "avatarUrls": {
+        "16x16": "http://metaproject.in.fhkn.de:8080/secure/projectavatar?size=small&pid=11600&avatarId=10011",
+        "48x48": "http://metaproject.in.fhkn.de:8080/secure/projectavatar?pid=11600&avatarId=10011"
+      }
+    },
+    "versions": [],
+    "environment": null,
+    "timeestimate": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "lastViewed": "2015-12-09T15:22:15.069+0100",
+    "components": [],
+    "comment": {
+      "startAt": 0,
+      "maxResults": 1,
+      "total": 1,
+      "comments": [
+        {
+          "self": "http://metaproject.in.fhkn.de:8080/rest/api/2/issue/16204/comment/15097",
+          "id": "15097",
+          "author": {
+            "self": "http://metaproject.in.fhkn.de:8080/rest/api/2/user?username=sikessle",
+            "name": "sikessle",
+            "emailAddress": "sikessle@htwg-konstanz.de",
+            "avatarUrls": {
+              "16x16": "http://metaproject.in.fhkn.de:8080/secure/useravatar?size=small&avatarId=10122",
+              "48x48": "http://metaproject.in.fhkn.de:8080/secure/useravatar?avatarId=10122"
+            },
+            "displayName": "Simon Kessler",
+            "active": true
+          },
+          "body": "is closed?",
+          "updateAuthor": {
+            "self": "http://metaproject.in.fhkn.de:8080/rest/api/2/user?username=sikessle",
+            "name": "sikessle",
+            "emailAddress": "sikessle@htwg-konstanz.de",
+            "avatarUrls": {
+              "16x16": "http://metaproject.in.fhkn.de:8080/secure/useravatar?size=small&avatarId=10122",
+              "48x48": "http://metaproject.in.fhkn.de:8080/secure/useravatar?avatarId=10122"
+            },
+            "displayName": "Simon Kessler",
+            "active": true
+          },
+            "created": "2015-12-09T15:22:23.679+0100",
+          "updated": "2015-12-09T15:22:23.679+0100"
+        }
+      ]
+    },
+    "timeoriginalestimate": null,
+    "aggregatetimespent": null
+  }
+}

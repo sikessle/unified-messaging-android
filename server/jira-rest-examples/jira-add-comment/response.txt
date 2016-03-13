@@ -1,0 +1,15 @@
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+X-AREQUESTID: 946x365069x1
+Set-Cookie: JSESSIONID=9BF98FB764C81699E6D4752D69EE3148; Path=/; HttpOnly
+X-Seraph-LoginReason: OK
+Set-Cookie: atlassian.xsrf.token=BR8B-SXH6-YCN3-HN0I|2ff632daf4d16d120a6d8085fc26e3847c912b55|lin; Path=/
+X-ASESSIONID: cmc1rs
+X-AUSERNAME: sikessle
+Location: http://metaproject.in.fhkn.de:8080/rest/api/2/issue/16205/comment/15098
+Cache-Control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 09 Dec 2015 14:46:57 GMT
+
+{"self":"http://metaproject.in.fhkn.de:8080/rest/api/2/issue/16205/comment/15098","id":"15098","author":{"self":"http://metaproject.in.fhkn.de:8080/rest/api/2/user?username=sikessle","name":"sikessle","emailAddress":"sikessle@htwg-konstanz.de","avatarUrls":{"16x16":"http://metaproject.in.fhkn.de:8080/secure/useravatar?size=small&avatarId=10122","48x48":"http://metaproject.in.fhkn.de:8080/secure/useravatar?avatarId=10122"},"displayName":"Simon Kessler","active":true},"body":"Message from: [~sikessle]\n\nHello!","updateAuthor":{"self":"http://metaproject.in.fhkn.de:8080/rest/api/2/user?username=sikessle","name":"sikessle","emailAddress":"sikessle@htwg-konstanz.de","avatarUrls":{"16x16":"http://metaproject.in.fhkn.de:8080/secure/useravatar?size=small&avatarId=10122","48x48":"http://metaproject.in.fhkn.de:8080/secure/useravatar?avatarId=10122"},"displayName":"Simon Kessler","active":true},"created":"2015-12-09T15:46:57.059+0100","updated":"2015-12-09T15:46:57.059+0100"}

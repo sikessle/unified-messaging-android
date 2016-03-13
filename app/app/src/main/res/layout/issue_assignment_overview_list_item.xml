@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:layout_height="?android:attr/listPreferredItemHeight" -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/issue_assignment_overview_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingTop="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingBottom="?android:attr/listPreferredItemPaddingStart" >
+
+    <TextView
+        android:id="@+id/issue_assignment_overview_list_item_name"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/issue_assignment_overview_activity_issue_count"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_alignParentEnd="true"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:background="@drawable/circle" />
+
+</RelativeLayout>

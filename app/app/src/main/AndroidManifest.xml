@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="de.htwg.tqm.app">
+
+    <uses-sdk tools:ignore="OldTargetApi" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:label="@string/dashboard_activity_title" />
+        <activity
+            android:name=".communication.InboxDialogActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".issueUpdateQuality.IssueUpdateQualityOverviewActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".issueUpdateQuality.IssueUpdateQualityDetailActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".issueUpdateQuality.IssueUpdateQualityDetailLandscapeActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".issueAssignment.IssueAssignmentOverviewActivity"
+            android:label="@string/issue_assignment_overview_activity_title" />
+        <activity
+            android:name=".issueAssignment.IssueAssignmentDetailActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/issue_assignment_detail_activity_title" />
+        <activity
+            android:name=".issueAssignment.IssueAssignmentDetailLandscapeActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/issue_assignment_detail_landscape_activity_title" />
+        <activity android:name=".settings.MainPreferenceActivity" />
+
+        <receiver android:name=".service.OnBootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".service.CriticalIssuesFetchService"
+            android:exported="false" />
+
+        <activity android:name=".communication.DialogLoadingActivity" />
+
+        <service
+            android:name=".service.WebSocketService"
+            android:enabled="true"
+            android:exported="true"/>
+    </application>
+
+</manifest>

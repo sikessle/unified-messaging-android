@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preference_heading_credentials" >
+        <EditTextPreference
+            android:defaultValue="@string/preference_default_uri"
+            android:inputType="textUri"
+            android:key="@string/key_jira_host"
+            android:summary="@string/preference_summary_uri"
+            android:title="@string/preference_title_uri" />
+        <EditTextPreference
+            android:defaultValue="@string/preference_default_username"
+            android:inputType="text"
+            android:key="@string/key_jira_username"
+            android:summary="@string/preference_summary_username"
+            android:title="@string/preference_title_username" />
+        <EditTextPreference
+            android:defaultValue="@string/preference_default_password"
+            android:inputType="textPassword"
+            android:key="@string/key_jira_password"
+            android:summary="@string/preference_summary_password"
+            android:title="@string/preference_title_password" />
+        <ListPreference
+            android:entries="@array/preference_role_entries"
+            android:entryValues="@array/preference_role_values"
+            android:key="@string/key_user_role"
+            android:summary="@string/preference_summary_role"
+            android:title="@string/preference_title_role"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_heading_projects" >
+        <ListPreference
+            android:entries="@array/preference_default_project_entries"
+            android:entryValues="@array/preference_default_project_values"
+            android:key="@string/key_project" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_heading_quality_colors" >
+        <EditTextPreference
+            android:defaultValue="@string/preference_default_quality_color_threshold_green"
+            android:inputType="numberDecimal"
+            android:key="@string/key_quality_color_threshold_green"
+            android:summary="@string/preference_summary_quality_color_threshold_green"
+            android:title="@string/preference_title_quality_color_threshold_green" />
+        <EditTextPreference
+            android:defaultValue="@string/preference_default_quality_color_threshold_yellow"
+            android:inputType="numberDecimal"
+            android:key="@string/key_quality_color_threshold_yellow"
+            android:summary="@string/preference_summary_quality_color_threshold_yellow"
+            android:title="@string/preference_title_quality_color_threshold_yellow" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_heading_count_colors" >
+        <EditTextPreference
+            android:defaultValue="@string/preference_default_assignment_color_threshold_green"
+            android:inputType="numberDecimal"
+            android:key="@string/key_count_color_threshold_green"
+            android:summary="@string/preference_summary_assignment_color_threshold_green"
+            android:title="@string/preference_title_assignment_color_threshold_green" />
+        <EditTextPreference
+            android:defaultValue="@string/preference_default_assignment_color_threshold_yellow"
+            android:inputType="numberDecimal"
+            android:key="@string/key_count_color_threshold_yellow"
+            android:summary="@string/preference_summary_assignment_color_threshold_yellow"
+            android:title="@string/preference_title_assignment_color_threshold_yellow" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_heading_notifications_refresh" >
+        <CheckBoxPreference android:key="@string/key_enable_notifications"
+            android:title="@string/preference_title_enable_notifications"
+            android:summary="@string/preference_summary_enable_notifications">
+        </CheckBoxPreference>
+        <EditTextPreference
+            android:defaultValue="@string/preference_default_notifications_interval"
+            android:inputType="number"
+            android:key="@string/key_notifications_interval"
+            android:summary="@string/preference_summary_notifications_interval"
+            android:title="@string/preference_title_notifications_interval" />
+        <EditTextPreference
+            android:defaultValue="@string/preference_default_issues_refresh_rate"
+            android:inputType="number"
+            android:key="@string/key_issues_refresh_rate"
+            android:summary="@string/preference_summary_issues_refresh_rate"
+            android:title="@string/preference_title_issues_refresh_rate" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

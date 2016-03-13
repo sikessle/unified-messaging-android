@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity" >
+
+    <ImageView
+        android:contentDescription="@string/login_activity_logo_content_description"
+        android:id="@+id/login_activity_logo"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher" />
+
+    <EditText
+        android:id="@+id/login_activity_username"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_activity_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60sp"
+        android:hint="@string/login_activity_username_hint"
+        android:inputType="textNoSuggestions"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/login_activity_password"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_activity_username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:hint="@string/login_activity_password_hint"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_activity_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_below="@+id/login_activity_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60sp"
+        android:background="@android:color/transparent"
+        android:onClick="storeUserData"
+        android:text="@string/login_activity_button_text" />
+
+</RelativeLayout>

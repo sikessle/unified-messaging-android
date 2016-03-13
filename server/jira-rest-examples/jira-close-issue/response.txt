@@ -1,0 +1,11 @@
+HTTP/1.1 204 No Content
+Server: Apache-Coyote/1.1
+X-AREQUESTID: 942x365015x1
+Set-Cookie: JSESSIONID=70B110F12C5A129F55794057924581A3; Path=/; HttpOnly
+X-Seraph-LoginReason: OK
+Set-Cookie: atlassian.xsrf.token=BR8B-SXH6-YCN3-HN0I|c187941de5fc03c30f3389f60e335eecfe3acc59|lin; Path=/
+X-ASESSIONID: tsnu1h
+X-AUSERNAME: sikessle
+Cache-Control: no-cache, no-store, no-transform
+Date: Wed, 09 Dec 2015 14:42:36 GMT
+
